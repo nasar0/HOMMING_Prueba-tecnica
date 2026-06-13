@@ -7,7 +7,7 @@ env/
 # Variables de entorno y secretos (CRÍTICO - Evita que te roben la API key)
 .env
 .env.*
-
+!.env.example
 
 # Archivos temporales de Python y cachés
 __pycache__/

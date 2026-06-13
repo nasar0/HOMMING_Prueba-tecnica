@@ -1,0 +1,26 @@
+# Entornos virtuales (Evita subir gigas de librerías)
+.venv/
+venv/
+ENV/
+env/
+
+# Variables de entorno y secretos (CRÍTICO - Evita que te roben la API key)
+.env
+.env.*
+
+
+# Archivos temporales de Python y cachés
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Archivos del sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Datos del proyecto (Opcional, pero recomendable si los datos cambian)
+data/*.csv
+data/*.xlsx
